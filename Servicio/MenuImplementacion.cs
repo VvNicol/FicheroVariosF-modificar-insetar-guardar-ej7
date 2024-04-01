@@ -3,43 +3,18 @@
     
     internal class MenuImplementacion : MenuInterface
     {   
-        static string archivo = "miArchivo.txt";
-        public int MenuArchivoFichero()
-        {
-            Console.WriteLine("MI ARCHIVO");
-            Console.WriteLine("0.Volver");
-            Console.WriteLine("1.Insertar linea");
-            Console.WriteLine("2.Modificar linea");
-            Console.WriteLine("3.Leer archivo");
-
-            int opcionArchivo = Convert.ToInt32(Console.ReadLine());
-            return opcionArchivo;
-        }
-
-        public void ArchivoFichero()
+       
+        public void MenuArchivoFichero()
         {
             ArchivoFicheroInterface aa = new ArchivoFicheroImplementacion();
 
             bool esCerrado = false;
             int opcionElegida;
 
-            using (StreamWriter sw = new StreamWriter(archivo))
-            {
-                sw.WriteLine("Texto 0        ");
-                sw.WriteLine("Texto 1        ");
-                sw.WriteLine("Texto 2        ");
-                sw.WriteLine("Texto 3        ");
-                sw.WriteLine("Texto 4        ");
-                sw.WriteLine("Texto 5        ");
-                sw.WriteLine("Texto 6        ");
-                sw.WriteLine("Texto 7        ");
-                sw.WriteLine("Texto 8        ");
-                sw.WriteLine("Texto 9        ");
-            }
-
             do
             {
-                opcionElegida = MenuArchivoFichero();
+                opcionElegida = ArchivoFichero();
+
                 switch (opcionElegida)
                 {
                     case 0:
@@ -60,7 +35,20 @@
                         break;
                 }
 
-            } while (!esCerrado);
+            } while (!esCerrado); 
+        }
+
+        private int ArchivoFichero()
+        {
+
+            Console.WriteLine("MI ARCHIVO");
+            Console.WriteLine("0.Volver");
+            Console.WriteLine("1.Insertar linea");
+            Console.WriteLine("2.Modificar linea");
+            Console.WriteLine("3.Leer archivo");
+
+            int opcionArchivo = Convert.ToInt32(Console.ReadLine());
+            return opcionArchivo;
         }
 
         public int MenuPrincipal()
@@ -74,18 +62,7 @@
             return opcion; 
         }
 
-        public int MenuTextoFichero()
-        {
-            Console.WriteLine("MI TEXTO");
-            Console.WriteLine("0.Volver");
-            Console.WriteLine("1.Insertar linea");
-            Console.WriteLine("2.Modificar linea");
-            Console.WriteLine("3.Leer archivo");
-
-            int opcion = Convert.ToInt32(Console.ReadLine());
-            return opcion;
-        }
-        public void TextoFichero()
+        public void MenuTextoFichero()
         {
             TextoFicheroInterface ti = new TextoFicheroImplementacion();
 
@@ -94,7 +71,7 @@
 
             do
             {
-                opcionElegida = MenuTextoFichero();
+                opcionElegida = TextoFichero();
                 switch (opcionElegida)
                 {
                     case 0:
@@ -106,13 +83,27 @@
                     case 2:
                         ti.modificarLinea();
                         break;
-
+                    case 3:
+                        ti.leerFichero();
+                        break;
                     default:
                         Console.WriteLine("La opcion no existe");
                         break;
                 }
 
             } while (!esCerrado);
+        }
+        private int TextoFichero()
+        {
+
+            Console.WriteLine("MI TEXTO");
+            Console.WriteLine("0.Volver");
+            Console.WriteLine("1.Insertar linea");
+            Console.WriteLine("2.Modificar linea");
+            Console.WriteLine("3.Leer archivo");
+
+            int opcion = Convert.ToInt32(Console.ReadLine());
+            return opcion;
         }
     }
 }

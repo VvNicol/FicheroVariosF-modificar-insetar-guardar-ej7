@@ -2,8 +2,8 @@
 {
     internal interface MenuInterface
     {
-        int MenuArchivoFichero();
+        void MenuArchivoFichero();
         int MenuPrincipal();
-        int MenuTextoFichero();
+        void MenuTextoFichero();
     }
 }

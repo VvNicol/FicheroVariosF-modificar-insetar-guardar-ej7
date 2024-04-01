@@ -1,0 +1,15 @@
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\bin\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.exe
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\bin\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.deps.json
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\bin\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.runtimeconfig.json
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\bin\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.dll
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\bin\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.pdb
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.AssemblyInfoInputs.cache
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.AssemblyInfo.cs
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.csproj.CoreCompileInputs.cache
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.sourcelink.json
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.dll
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\refint\FicheroVariosF-modificar-insetar-guardar-ej7.dll
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.pdb
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\FicheroVariosF-modificar-insetar-guardar-ej7.genruntimeconfig.cache
+C:\Users\Arius\Source\Repos\VvNicol\FicheroVariosF-modificar-insetar-guardar-ej7\obj\Debug\net8.0\ref\FicheroVariosF-modificar-insetar-guardar-ej7.dll

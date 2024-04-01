@@ -3,6 +3,7 @@
     internal interface TextoFicheroInterface
     {
         void insertarLinea();
+        void leerFichero();
         void modificarLinea();
     }
 }
